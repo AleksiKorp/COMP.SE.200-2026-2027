@@ -1,0 +1,175 @@
+# --------------------------------------------------
+# Dependencies
+# --------------------------------------------------
+
+node_modules/
+
+# Alternative package-manager dependency directories
+.pnp/
+.pnp.js
+.pnp.cjs
+
+
+# --------------------------------------------------
+# Test results and coverage
+# --------------------------------------------------
+
+coverage/
+.nyc_output/
+
+# Jest caches
+.jest-cache/
+.cache/jest/
+
+# Test result files
+test-results/
+junit.xml
+coverage-final.json
+lcov.info
+
+# Playwright and Cypress results, if added later
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+
+# --------------------------------------------------
+# Build output
+# --------------------------------------------------
+
+dist/
+build/
+out/
+.tmp/
+temp/
+tmp/
+
+# TypeScript incremental build information
+*.tsbuildinfo
+
+
+# --------------------------------------------------
+# Logs
+# --------------------------------------------------
+
+logs/
+*.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+# --------------------------------------------------
+# Environment variables and secrets
+# --------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local configuration containing credentials
+config.local.js
+config.local.json
+secrets/
+credentials/
+
+
+# --------------------------------------------------
+# Package-manager files
+# --------------------------------------------------
+
+# npm cache
+.npm/
+
+# Yarn
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# pnpm
+.pnpm-store/
+
+# Keep lock files under version control:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# --------------------------------------------------
+# Editor and IDE files
+# --------------------------------------------------
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+
+# --------------------------------------------------
+# Operating-system files
+# --------------------------------------------------
+
+# Linux
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# --------------------------------------------------
+# Miscellaneous generated files
+# --------------------------------------------------
+
+*.tgz
+*.zip
+*.tar.gz
+
+.eslintcache
+.stylelintcache
+
+# Local history produced by some editor extensions
+.history/
+
+# Optional local notes and scratch files
+scratch/
+*.scratch
